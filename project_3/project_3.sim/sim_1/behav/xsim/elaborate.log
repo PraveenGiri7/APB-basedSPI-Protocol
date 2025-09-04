@@ -1,0 +1,17 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot spi_slave_select_tb_behav xil_defaultlib.spi_slave_select_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/RUPESH KUMAR GOSWAMI/project_3/project_3.srcs/sources_1/new/spi_slave_select.v" Line 1. Module spi_slave_select doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/RUPESH KUMAR GOSWAMI/project_3/project_3.srcs/sources_1/new/spi_slave_select.v" Line 1. Module spi_slave_select doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.spi_slave_select
+Compiling module xil_defaultlib.spi_slave_select_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot spi_slave_select_tb_behav
