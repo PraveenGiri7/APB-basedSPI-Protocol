@@ -1,0 +1,11 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot spi_core_tb_behav xil_defaultlib.spi_core_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <apb_slave> not found while processing module instance <u_apb_slave> [C:/Users/RUPESH KUMAR GOSWAMI/project_6/project_6.srcs/sources_1/new/spi_core.v:31]
+ERROR: [VRFC 10-2063] Module <baud_generator> not found while processing module instance <u_baud_gen> [C:/Users/RUPESH KUMAR GOSWAMI/project_6/project_6.srcs/sources_1/new/spi_core.v:55]
+ERROR: [VRFC 10-2063] Module <spi_slave_select> not found while processing module instance <u_slave_sel> [C:/Users/RUPESH KUMAR GOSWAMI/project_6/project_6.srcs/sources_1/new/spi_core.v:64]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
